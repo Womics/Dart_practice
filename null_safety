@@ -1,0 +1,24 @@
+/*以下のコードのエラーを修正してください
+ void main() {
+int n;
+print(n); 
+  }*/
+
+/*解決方法①はnを定義する*/
+
+/*void main() {
+int n=0;
+print(n); 
+}*/
+
+/*解決方法②はnのnullを許容する*/
+
+void main() {
+int? n;
+print(n); 
+}
+
+/*Null safety:変数にNullが許容されないので、
+ コンパイルエラーを起こしてくれる機能のこと
+ →実行時にnullで落ちることがなくなる。
+  */
