@@ -1,0 +1,17 @@
+void main() {
+    print('Hello World!');
+    print(1+1);
+    print('1+1');
+    print('1+1=' + (1+1).toString());
+  /*Dartでは文字列に計算を結合するとき、ドル波カッコで囲む*/
+    print('1+1=${1+1}');
+  
+  /*変数をint,String,boolなどで変数を宣言したり、値を代入することができる*/
+  
+    String message="Hello";
+    print(message);
+  
+  int sum=10+20;
+  print("10+20=$sum");
+      
+  }
