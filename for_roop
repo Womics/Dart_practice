@@ -1,0 +1,20 @@
+void main(){
+  List<int> list1=<int>[1,2,3,4,5];
+  //for(ループカウンター;終了条件;ループごとの処理){処理}
+  for(int i=0;i<list1.length;i++){
+    print(list1[i]);  
+  }
+  //for <リストの要素を格納する変数> in <list>
+  for(int v in list1){
+    print(v);  
+  } 
+  //forEach文1
+  //リスト.forEach(繰り返し処理したい関数)
+  list1.forEach(print); 
+  
+  //forEach文2
+  //リスト.forEach(繰り返し処理したい関数)
+  list1.forEach((v){
+    print(v);   
+  });
+}
