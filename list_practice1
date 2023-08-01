@@ -1,0 +1,24 @@
+void main(){
+  //Listを定義する
+  List<int> list1=<int>[1,2,3,4,5];
+  List<String>list2=<String>["a","b","c"];
+  List<int>list3=<int>[];
+  
+  //Listを全件表示する
+  print("list1=$list1");
+  
+  //要素番号を指定して表示する
+  print("List1[0]=$list1[0]");
+  print("List2[1]=$list2[1]");
+  
+  //データを変更する
+  list1[0]=10;
+  print("list1[0]=$list1[0]");
+
+  //データを追加する
+  list1.add(6);
+  
+  //Listのさいしょと最後を表示する
+  print("list1.first=$list1.first");
+  print("list1.last=$list1.last");
+}
