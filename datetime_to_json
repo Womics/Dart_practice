@@ -1,0 +1,11 @@
+//現在時刻を取得し出力
+import 'dart:convert';
+
+void main(){
+var now =DateTime.now();
+ var data={
+  "now":now.toIso8601String(),
+ };
+  var jsonData=jsonEncode(data);
+  print(jsonData);
+}
