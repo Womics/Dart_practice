@@ -1,0 +1,18 @@
+void main(){
+  Map<String, int>fruits={
+//{key:value}の組み合わせでデータを管理する
+//keyとvalueには任意の方を指定する必要がある
+  "apple":200,
+  "orange":20,
+  "banana":100
+  };
+  print(fruits);
+  
+  //データを追加
+  fruits["Lemon"]=80;
+  //要素を更新するにはキーで要素を指定して代入
+  fruits["apple"]=250;
+  //要素を削除するにはremoveメソッドを用いる
+  fruits.remove("orange");
+  print(fruits);
+}
