@@ -1,0 +1,7 @@
+void main(){
+  //Listを定義する
+  List<int> values=<int>[1,2,3,4,5];  
+  int size=values.length ;
+  //Listのさいしょと最後を表示する
+  print("size of value is $size");
+}
