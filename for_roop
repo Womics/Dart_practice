@@ -18,3 +18,26 @@ void main(){
     print(v);   
   });
 }
+
+
+void main(){
+  Map<String,int> fruits={
+    "apple":200,
+    "orange":20,
+    "banana":100   
+  };
+  print("keys is\n");
+  for(String key in fruits.keys){
+    print(key);    
+  };
+  
+   print("\nvalues is\n");
+ 
+  for(int value in fruits.values){
+    print(value);    
+  };
+  fruits.forEach((k,v){
+    print("$k:$v");
+  }); 
+
+}
