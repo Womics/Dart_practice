@@ -1,0 +1,15 @@
+import 'dart:convert';
+
+void main(){
+  var data={
+    'name':'John Doe',
+    'age':'30',
+    'isMarried':false,
+    'hobbies':['reading','coding','traveling'],           
+  };
+  
+  //DartオブジェクトをJsonに変換
+  var jsonData = jsonEncode(data);
+  
+  print(jsonData);
+}
