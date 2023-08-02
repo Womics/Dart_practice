@@ -1,0 +1,9 @@
+//<戻り値の型><関数名>(<引数1, 引数2...>){処理 return 戻り値}
+  double getTrapezoidArea(double  top_side, double  bottom_side, double height){
+  double area = 0.5 * (top_side + bottom_side)* height;
+  return area;
+}
+  void main(){
+    double area = getTrapezoidArea(2.0, 4.0, 3.0);
+    print("Trapezoid Area: $area");
+  }
