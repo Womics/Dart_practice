@@ -1,0 +1,21 @@
+  class Person{
+    //インスタンス変数
+    String name;
+    String nationality;
+    int age;
+    //コンストラクタ：クラスが生成された時に呼び出される。
+    //一般的にインスタンス変数の初期化をする
+    Person(this.name,this.nationality, this.age );
+    void say_hello(name){
+      print("こんにちは、$nameさん。私は${this.name}です。");
+    }
+  }
+
+
+void main(){
+  //クラスのインスタンス化
+  Person jojo=Person("jojo","Japan",18)  ;
+  //メソッドを使用。引数に名前を入れている。
+  jojo.say_hello("womics");
+  
+}
