@@ -1,0 +1,19 @@
+  class Trapezoid{
+    //インスタンス
+    double top_side;
+    double bottom_side;
+    double height;
+    //コンストラクタ
+    Trapezoid(this.top_side, this.bottom_side, this.height);
+    //メソッド
+    double getArea(){
+      double area = 0.5 * (this.top_side + this.bottom_side) * this.height;
+      return area;
+    }
+  }
+void main(){
+  Trapezoid trapezoid = Trapezoid(2.0,3.0,4.0);
+  double area = trapezoid.getArea();
+  print(area);
+  
+}
