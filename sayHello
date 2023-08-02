@@ -1,0 +1,9 @@
+
+void sayHello(String name){
+  print("${name}さんこんにちは");
+}
+
+  void main(){
+  String name  = "Takaomi";
+  sayHello(name);
+  }
