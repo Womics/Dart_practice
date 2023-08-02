@@ -1,0 +1,18 @@
+  class Triangle{
+    //インスタンス
+    double bottom;
+    double height;
+    //コンストラクタ
+    Triangle(this.bottom,this.height);
+    //メソッド
+    double getArea(){
+      double area = 0.5 * this.bottom * this.height;
+      return area;
+    }
+  }
+void main(){
+  Triangle triangle = Triangle(10,12);
+  double area = triangle.getArea();
+  print(area);
+  
+}
