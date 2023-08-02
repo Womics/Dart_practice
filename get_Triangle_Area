@@ -1,0 +1,9 @@
+//<戻り値の型><関数名>(<引数1, 引数2...>){処理 return 戻り値}
+double getTriangleArea(double base, double height){
+  double area = 0.5 * base * height;
+  return area;
+}
+  void main(){
+    double area = getTriangleArea(10.0, 5.0);
+    print("Triangle Area: $area");
+  }
